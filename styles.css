@@ -1,0 +1,50 @@
+/* Reset bàsic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cos de la pàgina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ===== MENÚ DE NAVEGACIÓ ===== */
+
+.navbar {
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00bfff;
+}
+
+/* ===== CONTINGUT PRINCIPAL ===== */
+
+.landing-container {
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba
+}
